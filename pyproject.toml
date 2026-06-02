@@ -1,0 +1,15 @@
+[project]
+name = "Objektorientierung"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Luggi003",email = "al3320@mci4me.at"},
+]
+dependencies = ["Objektorientierung @ file:///${PROJECT_ROOT}/"]
+requires-python = "==3.14.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
