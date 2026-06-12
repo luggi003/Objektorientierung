@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 # Klasse EKG-Data für Peakfinder, die uns ermöglicht peaks zu finden
-'''
+
 class EKGdata:
 
 ## Konstruktor der Klasse soll die Daten einlesen
@@ -23,7 +23,7 @@ class EKGdata:
         # Erstellte einen Line Plot, der ersten 2000 Werte mit der Zeit aus der x-Achse
         self.fig = px.line(self.df.head(2000), x="Zeit in ms", y="Messwerte in mV")
         #return self.fig 
-'''
+
 
 if __name__ == "__main__":
     print("This is a module with some functions to read the EKG data")

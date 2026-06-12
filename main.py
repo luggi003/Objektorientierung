@@ -1,5 +1,5 @@
 import streamlit as st
-import read_person_data
+import source.read_person_data
 import source.ekgdata
 import matplotlib.pyplot as plt
 from PIL import Image

@@ -1,6 +1,6 @@
 #%% Import
 import json
-import pandas as pd
+#import pandas as pd
 
 # Opening JSON file
 def load_person_data():
